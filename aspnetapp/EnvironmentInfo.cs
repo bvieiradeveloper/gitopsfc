@@ -11,6 +11,7 @@ public struct EnvironmentInfo
         if (!OperatingSystem.IsLinux())
         {
             return;
+
         }
 
         string[] memoryLimitPaths = new string[] 
